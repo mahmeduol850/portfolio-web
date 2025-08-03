@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Ahmed - Full-Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #3498db;
+            --dark: #2c3e50;
+            --light: #f8f9fa;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            padding-top: 56px;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 6rem 0;
+            text-align: center;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+        
+        .lead {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+        
+        .btn {
+            padding: 0.6rem 1.5rem;
+            border-radius: 30px;
+            font-weight: 600;
+            margin: 0 0.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            border: none;
+        }
+        
+        .btn-outline-primary {
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn-outline-primary:hover {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .social-links {
+            margin-top: 2rem;
+        }
+        
+        .container {
+            max-width: 1140px;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Muhammad Ahmed</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container text-center">
+            <div class="profile-image-container">
+                <img src="images/profile.jpg" alt="Muhammad Ahmed" class="profile-image">
+            </div>
+            <h1>Muhammad Ahmed</h1>
+            <h2 class="h4 text-muted mb-4">Full-Stack Web Developer</h2>
+            <p class="lead mb-4">Lahore, Pakistan | +92 335 2824247 | ahmedsafdar250@gmail.com</p>
+            <p class="mb-4">
+                <a href="https://linkedin.com/in/m-muhammad-ahmed-01194b230" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                    <i class="fab fa-linkedin me-2"></i>linkedin.com/in/m-muhammad-ahmed-01194b230
+                </a>
+            </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/m-muhammad-ahmed-01194b230" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary me-2">
+                    <i class="fab fa-linkedin me-2"></i> Connect on LinkedIn
+                </a>
+                <a href="mailto:ahmedsafdar250@gmail.com?subject=Portfolio%20Inquiry" class="btn btn-primary">
+                    <i class="fas fa-envelope me-2"></i> Email Me
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Professional Summary</h2>
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <p class="card-text">
+                        Motivated and detail-oriented Full-Stack Web Developer currently pursuing a BS in Software Engineering at 
+                        the University of Lahore (expected graduation: 2026). Proficient in building responsive and efficient web 
+                        applications using HTML, CSS, JavaScript, Bootstrap, Python, Django, and Flask. Passionate about UI/UX 
+                        design, automation, and SEO strategies. Eager to contribute technical and creative expertise to dynamic 
+                        development teams.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title mb-4">Work Experience</h2>
+            
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <h4 class="card-title">Junior Limo Reservationist / Sales Agent</h4>
+                        <span class="badge bg-primary">May 2024 - July 2024</span>
+                    </div>
+                    <h5 class="text-muted">Profleet Dispatch | Lahore, Pakistan</h5>
+                    <ul class="mt-3">
+                        <li>Provided high-quality reservation support for a U.S.-based limo dispatch company</li>
+                        <li>Gained hands-on experience in dispatch logistics and customer communication tools</li>
+                        <li>Strengthened skills in handling real-time scheduling systems</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <h4 class="card-title">Web Developer (Intern)</h4>
+                        <span class="badge bg-secondary">Jul 2023 - Aug 2023</span>
+                    </div>
+                    <h5 class="text-muted">AI Soft | Faisalabad, Pakistan</h5>
+                    <p class="text-muted">Contact: Asif Iqbal - 0305-7736599</p>
+                    <ul class="mt-3">
+                        <li>Built multiple mini projects using Python, focusing on modularity and performance</li>
+                        <li>Developed a Django-based school management system with dynamic CRUD operations</li>
+                        <li>Created a responsive e-commerce platform with user login, cart, and database integration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <h4 class="card-title">Web Developer (Intern)</h4>
+                        <span class="badge bg-secondary">Aug 2021 - Dec 2021</span>
+                    </div>
+                    <h5 class="text-muted">RBIT | Faisalabad, Pakistan</h5>
+                    <p>Orbit Institute of Computer Sciences - Platform for learning computer courses</p>
+                    <ul class="mt-3">
+                        <li>Successfully completed front-end development course (Grade: A+)</li>
+                        <li>Built interactive mini-projects using HTML, CSS, and JavaScript</li>
+                        <li>Applied UI/UX principles to design user-friendly web interfaces</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Education</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title">BS in Software Engineering</h4>
+                                <span class="badge bg-primary">Expected 2026</span>
+                            </div>
+                            <h5 class="text-muted">University of Lahore</h5>
+                            <p class="mb-0">Final Year</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title">Intermediate in Computer Science (ICS)</h4>
+                            <h5 class="text-muted">Oxford Grammar Higher Secondary School, Faisalabad</h5>
+                            <p class="mb-0">Scored 921 / 1100 marks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Highlight -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title mb-4">Project Highlight</h2>
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title">End-to-End Automated Web Data Extraction Suite</h3>
+                    <div class="mb-3">
+                        <span class="badge bg-primary me-2">Flask</span>
+                        <span class="badge bg-primary me-2">ReactJS</span>
+                        <span class="badge bg-primary">Web Scraping</span>
+                    </div>
+                    <p class="card-text">
+                        A comprehensive full-stack web scraping tool designed to extract, process, and analyze web data efficiently.
+                    </p>
+                    <h5 class="mt-4">Key Features:</h5>
+                    <ul>
+                        <li>Developed a full-stack web scraping tool using Flask and ReactJS</li>
+                        <li>Delivered real-time analytics with modular architecture and dashboard features</li>
+                        <li>Emphasized performance optimization and intuitive UI</li>
+                        <li>Implemented data visualization for better insights</li>
+                        <li>Created a user-friendly interface for configuring and managing scraping tasks</li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-outline-primary me-2">
+                            <i class="fab fa-github me-2"></i>View Code
+                        </a>
+                        <a href="#" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Technical Skills</h2>
+            <div class="row g-4">
+                <!-- Front-End Skills -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <i class="fas fa-laptop-code me-2 text-primary"></i>Front-End
+                            </h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <span class="fw-bold">HTML/CSS</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 90%"></div>
+                                    </div>
+                                </li>
+                                <li class="mb-2">
+                                    <span class="fw-bold">Bootstrap</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 85%"></div>
+                                    </div>
+                                </li>
+                                <li class="mb-2">
+                                    <span class="fw-bold">JavaScript</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="fw-bold">ReactJS (Basics)</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Back-End Skills -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <i class="fas fa-server me-2 text-primary"></i>Back-End
+                            </h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <span class="fw-bold">Python</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 85%"></div>
+                                    </div>
+                                </li>
+                                <li class="mb-2">
+                                    <span class="fw-bold">Django</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                                    </div>
+                                </li>
+                                <li class="mb-2">
+                                    <span class="fw-bold">Flask</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="fw-bold">RESTful APIs</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Others -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <i class="fas fa-tools me-2 text-primary"></i>Tools & Others
+                            </h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <span class="fw-bold">WordPress</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                                    </div>
+                                </li>
+                                <li class="mb-2">
+                                    <span class="fw-bold">Git & GitHub</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 85%"></div>
+                                    </div>
+                                </li>
+                                <li class="mb-2">
+                                    <span class="fw-bold">SEO</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="fw-bold">VS Code</span>
+                                    <div class="progress mt-1" style="height: 8px;">
+                                        <div class="progress-bar bg-primary" style="width: 90%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Additional Info -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Certifications -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4">
+                                <i class="fas fa-certificate me-2 text-primary"></i>Certifications
+                            </h3>
+                            <div class="mb-4">
+                                <h5>Python Full Stack Developer</h5>
+                                <p class="text-muted mb-1">AI Soft</p>
+                                <p class="small text-muted">Completed in 2023</p>
+                                <p>Comprehensive training in full-stack development using Python, Django, and modern web technologies.</p>
+                            </div>
+                            <div>
+                                <h5>Web Development & Computer Hardware/Software</h5>
+                                <p class="text-muted mb-1">RBIT</p>
+                                <p class="small text-muted">Completed in 2021</p>
+                                <p>Hands-on training in web development fundamentals and computer systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages & Interests -->
+                <div class="col-md-6">
+                    <!-- Languages -->
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4">
+                                <i class="fas fa-language me-2 text-primary"></i>Languages
+                            </h3>
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span>English</span>
+                                    <span class="text-muted">Full Professional Proficiency</span>
+                                </div>
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-primary" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span>Urdu</span>
+                                    <span class="text-muted">Native Proficiency</span>
+                                </div>
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-primary" style="width: 100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interests -->
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4">
+                                <i class="fas fa-heart me-2 text-primary"></i>Interests
+                            </h3>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge bg-light text-dark border p-2">
+                                    <i class="fas fa-code me-1 text-primary"></i> Full-Stack Development
+                                </span>
+                                <span class="badge bg-light text-dark border p-2">
+                                    <i class="fas fa-paint-brush me-1 text-primary"></i> UI/UX Design
+                                </span>
+                                <span class="badge bg-light text-dark border p-2">
+                                    <i class="fas fa-search me-1 text-primary"></i> SEO Strategy
+                                </span>
+                                <span class="badge bg-light text-dark border p-2">
+                                    <i class="fas fa-truck me-1 text-primary"></i> Dispatch Systems
+                                </span>
+                                <span class="badge bg-light text-dark border p-2">
+                                    <i class="fas fa-robot me-1 text-primary"></i> Automation
+                                </span>
+                                <span class="badge bg-light text-dark border p-2">
+                                    <i class="fas fa-chart-line me-1 text-primary"></i> Data Analysis
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simple Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Muhammad Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Simple smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
